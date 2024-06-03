@@ -32,3 +32,6 @@ int main() {
 
 	//membuka file dalam mode membaca
 	ifstream infile;
+
+	//menunjuk kesebuah file
+	infile.open(NamaFile + ".txt", ios::in);
