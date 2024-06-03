@@ -26,6 +26,6 @@ int main() {
 
 	ifstream infile;
 
-	infile.open(NamaFile + ".txt", ios::in);
+	infile.open("contohfile.txt");
 
 }
