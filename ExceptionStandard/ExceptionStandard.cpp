@@ -13,5 +13,7 @@ int main()
 		//pesan array integer 3 elemen
 		cout << data.at(5) << endl;
 	}
+	catch (exception& e) {
+		cout << e.what() << endl;
 	}
 }
